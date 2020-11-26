@@ -1,0 +1,84 @@
+.navbar, body, head {
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    font-size: 16px;
+    margin-left: 20px;
+
+}
+}
+.navbar-brand span {
+    margin-right: 5px;
+}
+.navbar-nav a {
+    font-size: 11px;
+    margin-left: 20px;
+
+}
+.navbar-toggler {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+.navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: -8px;
+    margin-left: -13px;
+}
+
+.content {
+    margin-top: 10px ;
+}
+.content .small-teks {
+    font-size: 12px;
+    margin-top: -5px;
+}
+.carousel-item {
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid;
+}
+.carousel-item img {
+    height: 100%;
+}
+
+.list-group {
+    margin-top: 20px ;
+}
+
+.data {
+    font-size: 12sspx;
+}
+.text-left {
+    margin-top: 10px;
+} 
+.text-info {
+    font-size: 12px;
+} 
+
+
+@media (min-width: 900px) { 
+    .navbar-brand {
+        font-size: 23px;
+    }
+    .navbar-brand span {
+        margin-right: 5px;
+    }
+    .navbar-nav a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .carousel-item {
+        margin-top: 20px;
+        height: 400px;
+        border: 1px solid;
+    }
+    .carousel-item img {
+        height: 100%;
+    }
+    .text-left {
+        margin-top: 0;
+    }
+}
